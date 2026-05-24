@@ -36,6 +36,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
     final currentQuestion = questions[currentQuestionIndex];
 
     return Center(
+      // width: double.infinity, //== here width use in SizeBox widget
       child: Container(
         padding: const EdgeInsets.all(24.0),
         margin: const EdgeInsets.all(40),
